@@ -1,0 +1,5 @@
+#!/bin/bash
+Name='myname'
+Word='myword'
+find -f -i $Name | $path > list.txt
+grep $Word | head -10
